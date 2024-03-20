@@ -17,8 +17,8 @@ async def startCMD(client: FilterBot, message: Message):
       InlineKeyboardButton('Help', callback_data='main#help'),
       InlineKeyboardButton('About', callback_data='main#about')
       ],[
-      InlineKeyboardButton('Update', url='t.me/learningbots79'),
-      InlineKeyboardButton('Support', url='t.me/learning_bots')
+      InlineKeyboardButton('Update', url='t.me/Ur_rishu_143'),
+      InlineKeyboardButton('Support', url='t.me/RishuXbot')
       ]]
 
     if "motech" == BOT_PICS[0]:
@@ -48,8 +48,8 @@ async def aboutCMD(client: FilterBot, message: Message):
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.first_name, message.from_user.id)
 
-    keyboard = [[ InlineKeyboardButton('Tutorial', url='https://youtu.be/vbloWcdxjxg'),
-                   InlineKeyboardButton('Repo', url='https://github.com/Learningbots79/BestFilterbot') ],
+    keyboard = [[ InlineKeyboardButton('Admin', url='http://t.me/rishu1286'),
+                   InlineKeyboardButton('Repo', url='http://t.me/rishu1286') ],
                 [ InlineKeyboardButton('Home', callback_data='main#start'),
                   InlineKeyboardButton('Help', callback_data='main#help') ]]
 
